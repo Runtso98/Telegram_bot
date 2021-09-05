@@ -1,9 +1,10 @@
 import telebot
 import random
+import key
 
 from telebot import types
 
-bot = telebot.TeleBot('1940652598:AAGSF_T8Mx8BjbCId8FuVLx5PGhxbeZvOI0')
+bot = telebot.TeleBot(key.token)
 
 
 @bot.message_handler(commands=['start'])
